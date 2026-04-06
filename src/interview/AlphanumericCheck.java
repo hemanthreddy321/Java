@@ -40,3 +40,13 @@ public class AlphanumericCheck {
         sc.close();
     }
 }
+
+/*public static boolean isAlphanumeric(String str) {
+    if (str == null || str.isEmpty()) return false;
+    for (int i = 0; i < str.length(); i++) {
+        if (!Character.isLetterOrDigit(str.charAt(i))) {
+            return false;
+        }
+    }
+    return true;
+}*/
