@@ -16,14 +16,18 @@ public class CountOccurencesOfCharacter {
 
 
 /*import java.util.*;
-class WordFrequency {
+public class WordFrequency {
     public static void main(String[] args) {
         String str = "Hemanth Reddy Hemanth Reddy";
         String[] arr = str.split(" ");
         Map<String,Integer> map = new HashMap<>();
         for(String s: arr){
-            map.put(s,map.getOrDefault(s,0)+1);
+        if(map.containsKey(s)){
+            map.put(s,map.get(s)+1);
+        }else {
+            map.put(s,1);
         }
+       }
         System.out.println(map);
     }
 }*/
