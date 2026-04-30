@@ -1,6 +1,6 @@
-package practice;
+package math_logic;
 
-public class LoopPractice {
+public class Loops {
 
     public static void main(String[] args) {
 
