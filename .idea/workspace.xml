@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10be4ece-b6c2-4927-b42f-fb4dba9d8941" name="Changes" comment="" />
+    <list default="true" id="10be4ece-b6c2-4927-b42f-fb4dba9d8941" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/ClassObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/HierarchicalInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/InterfaceAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/MethodOverriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/MultilevelInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/MultipleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/SingleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/ThisSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/AnagramStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ArrayAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ArrayShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/JavaCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MinMaxArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/RemoveDuplicateWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/RemoveDuplicatesArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SecondLargestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SortAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SumOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/CountVowelsOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/CountVowelsOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/StringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/StringCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/Strings.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +52,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hemanthreddy321&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hemanthreddy321/Java.git&quot;,
+    &quot;accountId&quot;: &quot;8a9fe4e1-21d4-4771-b981-0b7b9dda9999&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/input.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/practice/Program1.java" root0="FORCE_HIGHLIGHTING" />
@@ -52,29 +93,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Abstraction.executor": "Run",
+    "Application.AnagramStrings.executor": "Run",
+    "Application.Armstrong.executor": "Run",
+    "Application.ArrayAverage.executor": "Run",
+    "Application.ClassObject.executor": "Run",
     "Application.ConvertNumricToChar.executor": "Run",
     "Application.CountOccurencesOfCharacter.executor": "Run",
+    "Application.DupliacteArray.executor": "Run",
     "Application.DuplicateElementsArray.executor": "Run",
+    "Application.Encapsulation.executor": "Run",
     "Application.FibonacciSeries.executor": "Debug",
     "Application.FindDuplicateStringCharacter.executor": "Run",
     "Application.FirstNonRepeatingCharacterinString.executor": "Run",
+    "Application.HashMap.executor": "Run",
+    "Application.HierarchicalInheritance.executor": "Run",
+    "Application.Inheritance.executor": "Run",
+    "Application.InterfaceAbstraction.executor": "Run",
+    "Application.MethodOverloading.executor": "Run",
+    "Application.MethodOverriding.executor": "Run",
+    "Application.MinMaxArrays.executor": "Run",
+    "Application.MultilevelInheritance.executor": "Run",
+    "Application.MultipleInheritance.executor": "Run",
+    "Application.OOPS.MethodOverriding.executor": "Run",
     "Application.Program1.executor": "Run",
     "Application.Program3.executor": "Run",
+    "Application.RemoveDuplicateWords.executor": "Run",
+    "Application.RemoveDuplicatesArray.executor": "Run",
     "Application.ReverseSentence.executor": "Run",
     "Application.Sample.executor": "Run",
+    "Application.SecondLargestArray.executor": "Run",
     "Application.ShiftZeros.executor": "Run",
+    "Application.SingleInheritance.executor": "Run",
+    "Application.SortAnArray.executor": "Run",
     "Application.StringCount.executor": "Run",
+    "Application.SumOfArray.executor": "Run",
     "Application.SwapStringStringBuilder.executor": "Run",
     "Application.SwapStrings.executor": "Debug",
+    "Application.ThisSuper.executor": "Run",
     "Application.practice.Program1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "introduce.parameter.lambda": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -102,9 +170,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConvertNumricToChar">
-    <configuration name="ConvertNumricToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.ConvertNumricToChar" />
+  <component name="RunManager" selected="Application.JavaCollections">
+    <configuration name="ArrayShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.ArrayShuffle" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +184,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepeatingCharacterinString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.FirstNonRepeatingCharacterinString" />
+    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.HashMap" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.JavaCollections" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.SingleInheritance" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThisSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.ThisSuper" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertNumricToChar" />
-        <item itemvalue="Application.FirstNonRepeatingCharacterinString" />
+        <item itemvalue="Application.JavaCollections" />
+        <item itemvalue="Application.ArrayShuffle" />
+        <item itemvalue="Application.HashMap" />
+        <item itemvalue="Application.ThisSuper" />
+        <item itemvalue="Application.SingleInheritance" />
       </list>
     </recent_temporary>
   </component>
