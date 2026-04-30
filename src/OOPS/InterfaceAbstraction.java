@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 // 1. The Interface (Defines 'What' to do)
 interface Camera {

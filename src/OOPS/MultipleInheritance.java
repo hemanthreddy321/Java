@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 interface Printer {
     void print();

@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 abstract class WildAnimal {
     // Abstract method (no body) - Subclasses MUST implement this

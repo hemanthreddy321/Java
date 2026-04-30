@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 class Parent {
     String name = "Parent Class";

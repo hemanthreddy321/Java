@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 class AnimalType {
     void eat() { System.out.println("This animal eats food."); }

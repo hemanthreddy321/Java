@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 class Vehicle {
     void move() { System.out.println("Moving..."); }

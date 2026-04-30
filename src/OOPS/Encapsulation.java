@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 class Employee {
     // 1. Private variables (Data Hiding)

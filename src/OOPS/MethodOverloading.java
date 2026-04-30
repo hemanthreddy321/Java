@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 class Calculator {
     // 1. Overloaded method with 2 int parameters
