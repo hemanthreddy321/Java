@@ -21,3 +21,23 @@ public class CountVowelsOfString {
         System.out.println("Consonants: " + consonants);
     }
 }
+
+/* Count Vowels
+String text = "Hello Java";
+int count = 0;
+
+for (char c : text.toLowerCase().toCharArray()) {
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+count++;
+        }
+        }
+
+        System.out.println("Vowels: " + count);*/
+
+/*
+
+Remove Vowels
+String text = "Hello Java";
+String result = text.replaceAll("[aeiouAEIOU]", "");
+
+System.out.println(result);*/
