@@ -1,52 +1,21 @@
 package strings;
-
-import java.util.Scanner;
-
 public class AlphanumericCheck {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter text: ");
-        String input = sc.nextLine();
-
+        String input = "Java123"; // java-123 or java@123
         boolean isValid = true;
 
-        // Check if input is empty
-        if (input.isEmpty()) {
-            isValid = false;
-        } else {
-            for (int i = 0; i < input.length(); i++) {
-                char c = input.charAt(i); // Access character at specific index
-
-                // Manual check using ASCII ranges:
-                // Numbers: '0'-'9' (ASCII 48-57)
-                // Uppercase: 'A'-'Z' (ASCII 65-90)
-                // Lowercase: 'a'-'z' (ASCII 97-122)
-                if (!((c >= '0' && c <= '9') ||
-                        (c >= 'A' && c <= 'Z') ||
-                        (c >= 'a' && c <= 'z'))) {
-                    isValid = false;
-                    break; // Stop immediately if a non-alphanumeric character is found
-                }
+        for (char c : input.toCharArray()) {
+            // Check if the character is NOT a letter or a digit
+            if (!Character.isLetterOrDigit(c)) {
+                isValid = false;
+                break;
             }
         }
 
         if (isValid) {
             System.out.println("Result: Alphanumeric");
         } else {
-            System.out.println("Result: Not Alphanumeric (contains spaces or symbols)");
+            System.out.println("Result: Not Alphanumeric");
         }
-
-        sc.close();
     }
 }
-
-/*public static boolean isAlphanumeric(String str) {
-    if (str == null || str.isEmpty()) return false;
-    for (int i = 0; i < str.length(); i++) {
-        if (!Character.isLetterOrDigit(str.charAt(i))) {
-            return false;
-        }
-    }
-    return true;
-}*/
