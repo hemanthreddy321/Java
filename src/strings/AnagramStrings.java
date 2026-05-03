@@ -14,6 +14,10 @@ public class AnagramStrings {
         Arrays.sort(arr2);
 
         boolean isAnagram = Arrays.equals(arr1, arr2);
-        System.out.println(isAnagram ? "Anagram" : "Not Anagram");
+        if (isAnagram) {
+            System.out.println("Anagram");
+        } else {
+            System.out.println("Not Anagram");
+        }
     }
 }
