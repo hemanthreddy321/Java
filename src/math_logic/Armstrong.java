@@ -13,7 +13,10 @@ public class Armstrong {
             num /= 10;
         }
 
-        if (result == original) System.out.println(original + " is Armstrong");
-        else System.out.println(original + " is not Armstrong");
+        if (result == original) {
+            System.out.println(original + " is Armstrong");
+        } else {
+            System.out.println(original + " is not Armstrong");
+        }
     }
 }
