@@ -37,21 +37,3 @@ public class CountOccurencesOfCharacter {
         }
     }
 }
-
-
-/*import java.util.*;
-public class WordFrequency {
-    public static void main(String[] args) {
-        String str = "Hemanth Reddy Hemanth Reddy";
-        String[] arr = str.split(" ");
-        Map<String,Integer> map = new HashMap<>();
-        for(String s: arr){
-        if(map.containsKey(s)){
-            map.put(s,map.get(s)+1);
-        }else {
-            map.put(s,1);
-        }
-       }
-        System.out.println(map);
-    }
-}*/
