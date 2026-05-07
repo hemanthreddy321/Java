@@ -26,3 +26,13 @@ public class FindDuplicateStringCharacter {
         }
     }
 }
+
+/*String name = "hemanthreddy";
+Set<Character> seen = new HashSet<>();
+Set<Character> duplicates = new LinkedHashSet<>();
+for (char c : name.toCharArray()) {
+        if (!seen.add(c)) {
+        duplicates.add(c);
+    }
+            }
+            System.out.println("Duplicates: " + duplicates);*/
