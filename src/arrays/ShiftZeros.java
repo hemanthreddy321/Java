@@ -5,20 +5,21 @@ import java.util.Arrays;
 public class ShiftZeros {
     public static void main(String[] args) {
         int[] a = {1, 0, 2, 0, 3, 0, 0, 0};
-        int position = 0;
+        int nextNonZero = 0;
 
-        // Step 1: Move non-zeros to the front
-        for (int num : a) {
-            if (num != 0) {
-                a[position++] = num;
+        for (int i = 0; i < a.length; i++) {
+            // Whenever we find a non-zero, we swap it with the 'nextNonZero' position
+            if (a[i] != 0) {
+                int temp = a[i];
+                a[i] = a[nextNonZero];
+                a[nextNonZero] = temp;
+
+                // Move the pointer forward for the next non-zero found
+                nextNonZero++;
             }
-        }
-
-        // Step 2: Fill the remaining spots with zeros
-        while (position < a.length) {
-            a[position++] = 0;
         }
 
         System.out.println(Arrays.toString(a));
     }
 }
+
