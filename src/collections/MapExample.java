@@ -1,19 +1,20 @@
 package collections;
+import java.util.*;
 
-import java.util.Map;
-
-public class HashMap {
+public class MapExample {
     public static void main(String[] args) {
-        java.util.HashMap<String, Integer> map = new java.util.HashMap<>();
+
+        Map<String, Integer> map = new HashMap<>();
         map.put("Apple", 10);
         map.put("Banana", 20);
 
-        // Iterating over entries (Key and Value)
+        // Iterating over entries
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
         }
     }
 }
+
 
 /*map.forEach((key, value) -> {
         System.out.println(key + " => " + value);
