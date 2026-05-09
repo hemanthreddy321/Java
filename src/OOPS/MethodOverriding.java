@@ -25,3 +25,7 @@ public class MethodOverriding {
     }
 }
 
+//Even though the reference variable a is of type Animal, it points to a Dog object.
+// Because the method is overridden,
+// Java decides which version to run at execution time based on the actual object type,
+// not the reference type.
