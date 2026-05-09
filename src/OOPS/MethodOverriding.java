@@ -21,7 +21,7 @@ public class MethodOverriding {
         Animal myDog = new Dog(); // Upcasting
 
         myAnimal.makeSound(); // Prints: AnimalType makes a sound
-        myDog.makeSound();    // Prints: Cat barks: Woof! Woof!
+        myDog.makeSound();    // Prints: Dog barks: Woof! Woof!
     }
 }
 
