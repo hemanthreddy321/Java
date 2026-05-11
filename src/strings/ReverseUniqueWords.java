@@ -31,3 +31,28 @@ public class ReverseUniqueWords {
         System.out.println(result);
     }
 }
+
+/*import java.util.*;
+
+public class ReverseUniqueWords {
+    public static void main(String[] args) {
+        String input = "Good afternoon Good Evening";
+
+        // 1. Split string into an array of words
+        String[] words = input.split(" ");
+
+        // 2. Add words to a LinkedHashSet to remove duplicates
+        // while keeping the original order
+        Set<String> uniqueWords = new LinkedHashSet<>(Arrays.asList(words));
+
+        // 3. Convert the Set back to a List so we can easily reverse it
+        List<String> list = new ArrayList<>(uniqueWords);
+        Collections.reverse(list);
+
+        // 4. Join the words back into a single string
+        String result = String.join(" ", list);
+
+        System.out.println(result); // Output: Evening afternoon Good
+    }
+}*/
+

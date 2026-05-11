@@ -10,6 +10,7 @@ public class RemoveDuplicateWords {
         // Split text into words and add to a LinkedHashSet to maintain order
         String[] words = text.split(" ");
         LinkedHashSet<String> uniqueWords = new LinkedHashSet<>(Arrays.asList(words));
+        System.out.println(uniqueWords);
 
         // Join them back together
         String result = String.join(" ", uniqueWords);

@@ -7,11 +7,11 @@ public class FindDuplicateStringCharacter {
         char[] character = s.toCharArray();
         boolean isNotDupliacte = false;
 
-        for (int i = 0; i<s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             boolean isDupliacte = false;
 
-            for (int j = i+1; j<s.length(); j++) {
-                if(character[i] == character[j]) {
+            for (int j = i + 1; j < s.length(); j++) {
+                if (character[i] == character[j]) {
                     isDupliacte = true;
                     break;
                 }
@@ -35,4 +35,5 @@ for (char c : name.toCharArray()) {
         duplicates.add(c);
     }
             }
-            System.out.println("Duplicates: " + duplicates);*/
+            System.out.println("Duplicates: " + duplicates);
+            System.out.println("Unique characters: " +seen);*/
