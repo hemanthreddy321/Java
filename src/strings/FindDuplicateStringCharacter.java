@@ -1,7 +1,7 @@
 package strings;
 
 public class FindDuplicateStringCharacter {
-
+//using nested for loops and comparing array indexs
     public static void main(String[] args) {
         String s = "hackerearth";
         char[] character = s.toCharArray();
@@ -26,14 +26,3 @@ public class FindDuplicateStringCharacter {
         }
     }
 }
-
-/*String name = "hemanthreddy";
-Set<Character> seen = new HashSet<>();
-Set<Character> duplicates = new LinkedHashSet<>();
-for (char c : name.toCharArray()) {
-        if (!seen.add(c)) {
-        duplicates.add(c);
-    }
-            }
-            System.out.println("Duplicates: " + duplicates);
-            System.out.println("Unique characters: " +seen);*/
