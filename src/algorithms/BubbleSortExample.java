@@ -30,3 +30,18 @@ public class BubbleSortExample {
     }
 }
 
+/*
+// Logic for Descending Order
+for (int i = 0; i < arr.length - 1; i++) {
+        for (int j = 0; j < arr.length - i - 1; j++) {
+        // Change > to < for descending
+        if (arr[j] < arr[j + 1]) {
+int temp = arr[j];
+arr[j] = arr[j + 1];
+arr[j + 1] = temp;
+        }
+                }
+                }
+*/
+
+
