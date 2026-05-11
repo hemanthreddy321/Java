@@ -21,7 +21,7 @@ public class UniqueAndDuplicates {
 /*public class UniqueAndDuplicates {
     public static void main(String[] args) {
         // Using Arrays
-        int[] arr = {100, 100, 101, 101, 200, 202};
+        Integer[] arr = {100, 100, 101, 101, 200, 202};
         Set<Integer> seen = new LinkedHashSet<>();
         Set<Integer> duplicates = new LinkedHashSet<>();
         for (int num : arr) {
