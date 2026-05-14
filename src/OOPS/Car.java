@@ -1,4 +1,4 @@
-package practice;
+package oops;
 
 public class Car {
     // Private fields enforce encapsulation best practices
