@@ -48,3 +48,14 @@ String text = "  Java \t is \n fun  ";
 String noSpaces = text.replaceAll("\\s+", "");
 
 System.out.println(noSpaces); // "Javaisfun"*/
+
+
+/*class Main {
+    public static void main(String[] args) {
+
+        String s = "mom";
+        char[] c = s.toCharArray();
+        System.out.println(Arrays.toString(c));
+//        o/p = [m, o, m]
+    }
+}*/
