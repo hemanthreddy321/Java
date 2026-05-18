@@ -1,4 +1,4 @@
-package file_io;
+package file_handling;
 
 import java.io.File;  // Import the File class
 

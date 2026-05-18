@@ -1,4 +1,4 @@
-package file_io;
+package file_handling;
 
 /*Other Ways to Read Files
         There are several classes you can use to read files in Java:

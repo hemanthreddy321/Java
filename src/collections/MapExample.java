@@ -29,7 +29,7 @@ Map.Entry<String, Integer> entry = iterator.next();
 
 
 /* KEYS AND VALUES
-public class Main {
+public class ReadFileStream {
     public static void main(String[] args) {
         HashMap<String, String> capitalCities = new HashMap<String, String>();
         capitalCities.put("England", "London");

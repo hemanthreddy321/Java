@@ -18,7 +18,7 @@ class SamsungCamera implements Camera {
     }
 }
 
-// 3. Main Class
+// 3. ReadFileStream Class
 public class InterfaceAbstraction {
     public static void main(String[] args) {
         // Interface reference pointing to an object

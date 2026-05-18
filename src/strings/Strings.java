@@ -26,7 +26,7 @@ public class Strings {
 }
 /*
 Convert a String to an Array
-public class Main {
+public class ReadFileStream {
     public static void main(String[] args) {
         String myStr = "Hello";
         char[] myArray = myStr.toCharArray();
@@ -50,7 +50,7 @@ String noSpaces = text.replaceAll("\\s+", "");
 System.out.println(noSpaces); // "Javaisfun"*/
 
 
-/*class Main {
+/*class ReadFileStream {
     public static void main(String[] args) {
 
         String s = "mom";

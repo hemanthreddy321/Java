@@ -1,4 +1,4 @@
-package file_io;
+package file_handling;
 /*Ways to Write to Files
         There are several classes you can use to write files in Java:
 
