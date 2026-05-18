@@ -2,6 +2,8 @@ package IO_Streams;
 import java.io.FileInputStream;  // Import FileInputStream
 import java.io.IOException;      // Import IOException
 
+//FileInputStream to read a text file, one byte at a time, and print the result as characters
+
 public class ReadFileStream {
     public static void main(String[] args) {
         // try-with-resources: FileInputStream will be closed automatically

@@ -3,7 +3,7 @@ package IO_Streams;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+//FileInputStream is that it can handle any file type, not just text. Here is an example that copies an image file
 public class CopyFile {
     public static void main(String[] args) {
         // Copy image.jpg into copy.jpg

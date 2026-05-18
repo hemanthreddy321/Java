@@ -15,3 +15,11 @@ Java gives you several ways to write to files. Here's when to pick each one:
 FileWriter - best for basic text files. Simple and easy to use.
 BufferedWriter - best for large text files, because it is faster and lets you add new lines easily.
 FileOutputStream - best for binary data (images, PDFs, audio) or when you need full control of raw bytes.
+
+BufferedReader and BufferedWriter make reading and writing text files faster.
+
+BufferedReader lets you read text line by line with readLine().
+BufferedWriter lets you write text efficiently and add new lines with newLine().
+
+These classes are usually combined with FileReader and FileWriter, which handle opening or creating the file.
+The buffered classes then make reading/writing faster by using a memory buffer.
