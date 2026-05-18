@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class TopNWords {
     public static void main(String[] args) throws IOException {
 
-        String fileName = "src/input.txt";
+        String fileName = "src/resources/filename.txt";
         int N = 2;
         Map<String, Integer> wordCountMap = new HashMap<>();
 
