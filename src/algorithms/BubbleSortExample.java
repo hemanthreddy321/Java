@@ -4,31 +4,40 @@ public class BubbleSortExample {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 5, 6};
 
-        // Outer loop: Controls how many passes we make through the array.
-        // After each pass, the largest remaining element "bubbles up" to its correct position at the end.
-        for (int i = 0; i < arr.length - 1; i++) {
+        // Track if any numbers were swapped in a pass
+        boolean swapped;
 
-            // Inner loop: Compares adjacent elements.
-            // We use 'arr.length - i - 1' because the last 'i' elements are already sorted.
+        // Outer loop: Runs up to N-1 times to pass through the array
+        for (int i = 0; i < arr.length - 1; i++) {
+            swapped = false; // Reset flag at the start of each pass
+
+            // Inner loop: Compares adjacent numbers.
+            // Ignores the last 'i' elements because they are already sorted.
             for (int j = 0; j < arr.length - i - 1; j++) {
 
-                // Compare current element with the next one
+                // If left number is bigger than right number, swap them
                 if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
 
-                    // If the left element is bigger, they are in the wrong order. Swap them!
-                    int temp = arr[j];       // Store current value in a temporary variable
-                    arr[j] = arr[j + 1];     // Move the smaller value to the left
-                    arr[j + 1] = temp;       // Put the larger value (from temp) to the right
+                    swapped = true; // Mark that a swap happened
                 }
+            }
+
+            // Optimization: If no numbers were swapped, the array is already sorted!
+            if (!swapped) {
+                break; // Exit the loop early to save time
             }
         }
 
-        // Print the final result
+        // Print the sorted array
         for (int num : arr) {
             System.out.print(num + " ");
         }
     }
 }
+
 
 /*
 // Logic for Descending Order

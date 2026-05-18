@@ -8,10 +8,8 @@ public class ReverseSentence {
 
         // Iterate backwards through the array
         for (int i = words.length - 1; i >= 0; i--) {
-            reversed.append(words[i]);
-            if (i != 0) {
-                reversed.append(" "); // Add space between words but not after the last one
-            }
+            reversed.append(words[i]).append(" ");
+            // Add space between words but not after the last one
         }
 
         System.out.println("Original: " + input);

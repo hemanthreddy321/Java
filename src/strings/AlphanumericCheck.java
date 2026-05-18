@@ -1,17 +1,21 @@
 package strings;
+
 public class AlphanumericCheck {
     public static void main(String[] args) {
-        String input = "Java123"; // java-123 or java@123
+        // Test inputs: "Java123" (True), "java-123" (False), "java@123" (False)
+        String input = "Java123";
         boolean isValid = true;
 
+        // Convert string to character array and check each character
         for (char c : input.toCharArray()) {
-            // Check if the character is NOT a letter or a digit
+            // Flag as invalid if a character is neither a letter nor a digit
             if (!Character.isLetterOrDigit(c)) {
                 isValid = false;
-                break;
+                break; // Exit loop early since we already found a non-alphanumeric character
             }
         }
 
+        // Print final verdict
         if (isValid) {
             System.out.println("Result: Alphanumeric");
         } else {

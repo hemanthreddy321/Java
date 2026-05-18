@@ -25,7 +25,9 @@ public class MethodOverriding {
     }
 }
 
-//Even though the reference variable a is of type Animal, it points to a Dog object.
-// Because the method is overridden,
-// Java decides which version to run at execution time based on the actual object type,
-// not the reference type.
+/*This is Polymorphism.
+ The reference variable (myDog) is of type Animal, but the actual object created in memory is a Dog.
+ When you call myDog.makeSound(), Java checks the actual object type at runtime,
+ not the reference type.Since the actual object is a Dog,
+ it executes the overridden version and prints: Dog barks: Woof! Woof!.
+ This mechanism is known as Runtime Polymorphism or Dynamic Method Dispatch.*/
