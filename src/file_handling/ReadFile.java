@@ -1,12 +1,4 @@
 package file_handling;
-
-/*Other Ways to Read Files
-        There are several classes you can use to read files in Java:
-
-        Scanner - best for simple text and when you want to parse numbers or words easily.
-        BufferedReader - best for large text files, because it is faster and reads line by line.
-        FileInputStream - best for binary data (images, audio, PDFs) or when you need full control of raw bytes.*/
-
 import java.io.File;                  // Import the File class
 import java.io.FileNotFoundException; // Import this class to handle errors
 import java.util.Scanner;             // Import the Scanner class to read text files

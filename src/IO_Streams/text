@@ -1,0 +1,17 @@
+Types of Streams
+
+Byte Streams
+Work with raw binary data (like images, audio, and PDF files).
+Examples: FileInputStream, FileOutputStream.
+
+Character Streams
+Work with text (characters and strings). These streams automatically handle character encoding.
+Examples: FileReader, FileWriter, BufferedReader, BufferedWriter.
+
+
+Choosing the Right Class
+Java gives you several ways to write to files. Here's when to pick each one:
+
+FileWriter - best for basic text files. Simple and easy to use.
+BufferedWriter - best for large text files, because it is faster and lets you add new lines easily.
+FileOutputStream - best for binary data (images, PDFs, audio) or when you need full control of raw bytes.
