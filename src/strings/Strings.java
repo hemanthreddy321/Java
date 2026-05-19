@@ -50,7 +50,7 @@ String noSpaces = text.replaceAll("\\s+", "");
 System.out.println(noSpaces); // "Javaisfun"*/
 
 
-/*class ReadFileStream {
+/*class Main {
     public static void main(String[] args) {
 
         String s = "mom";
