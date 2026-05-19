@@ -9,7 +9,7 @@ public class UniqueAndDuplicates {
         Set<Character> duplicates = new LinkedHashSet<>();
         for (char c : name.toCharArray()) {
             if (!seen.add(c)) {
-                seen.add(c);
+//                seen.add(c);
                 duplicates.add(c);
             }
         }
