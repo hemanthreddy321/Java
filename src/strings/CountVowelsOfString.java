@@ -41,3 +41,22 @@ String text = "Hello Java";
 String result = text.replaceAll("[aeiouAEIOU]", "");
 
 System.out.println(result);*/
+
+//Count Vowels and Consonants
+
+/*
+String str = "selenium";
+int vowels = 0;
+int consonants = 0;
+
+for(char ch : str.toCharArray()) {
+
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
+vowels++;
+        } else {
+consonants++;
+        }
+        }
+
+        System.out.println("Vowels: " + vowels);
+System.out.println("Consonants: " + consonants);*/

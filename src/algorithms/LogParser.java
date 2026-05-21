@@ -86,3 +86,12 @@ class Main {
         System.out.println(map);
     }
 }*/
+
+/*// Scenario: Extracting a timestamp and error level from a standard framework log line
+String logLine = "[2026-05-21 14:30:11] [ERROR] NullPointerException at Login line 42";
+
+// Split by space or custom delimiters
+String[] logParts = logLine.split(" ");
+String timestamp = logParts[0] + " " + logParts[1]; // [2026-05-21 14:30:11]
+String logLevel = logParts[2]; // [ERROR]*/
+

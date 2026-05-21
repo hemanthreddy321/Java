@@ -16,6 +16,11 @@ public class StringCount {
 
 //       if (a.charAt(i) == 'a')
 
+/*String str = "Automation";
+
+System.out.println(str.length());*/
+
+
 /*
 String words = "One Two Three Four";
 int countWords = words.split("\\s").length;
