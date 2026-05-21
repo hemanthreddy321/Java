@@ -56,3 +56,30 @@ public class LogParser {
         System.out.println(map);
     }
 }
+
+
+/*
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+
+        String input = "timestamp=2026-05-20T10:15:32Z level=INFO service=AuthService message=\"User login successful\" userId=12345";
+
+        Map<String,String> map = new LinkedHashMap<>();
+
+        String [] arr = input.split(" ");
+        String key = "";
+        for(String str : arr){
+
+            if(str.contains("=")){
+                String[] parts = str.split("=",2);
+                key = parts[0];
+                map.put(key, parts[1].replace("\"",""));
+            }else{
+                map.put(key, map.get(key) + " " + str.replace("\"",""));
+            }
+        }
+        System.out.println(map);
+    }
+}*/
