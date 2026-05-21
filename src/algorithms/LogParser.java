@@ -3,50 +3,56 @@ package algorithms;
 import java.util.*;
 
 public class LogParser {
-
     public static void main(String[] args) {
-
-        // Input log string
+        // The original log string containing our data
         String input = "timestamp=2026-05-20T10:15:32Z level=INFO service=AuthService message=\"User login successful\" userId=12345";
 
-        // Map to store key-value pairs
+        // Create an empty map to store the final key-value pairs
         Map<String, String> map = new LinkedHashMap<>();
 
-        // Split string by spaces
-        String[] arr = input.split(" ");
+        // Step 1: Remove all double quotes from the text immediately
+        // This removes the biggest headache and keeps things simple
+        input = input.replace("\"", "");
 
-        // Variable to remember current key
-        // Useful when value contains multiple words
+        // Step 2: Cut the text into an array of words wherever there is a space
+        String[] parts = input.split(" ");
+
+        // Trackers to hold the item we are currently building
         String currentKey = "";
+        String currentValue = "";
 
-        // Loop through each word
-        for (String str : arr) {
+        // Step 3: Loop through every word in the array
+        for (String part : parts) {
 
-            // Check if word contains '='
-            // Means it is a new key=value pair
-            if (str.contains("=")) {
+            // Check if the current word contains an '=' sign
+            if (part.contains("=")) {
 
-                // Split into key and value
-                // limit = 2 avoids extra splitting
-                String[] parts = str.split("=", 2);
+                // If currentKey is NOT empty, it means we just finished
+                // building a previous pair. Save it to the map now.
+                if (!currentKey.isEmpty()) {
+                    map.put(currentKey, currentValue);
+                }
 
-                // Store key
-                currentKey = parts[0];
-
-                // Store value after removing quotes
-                map.put(currentKey, parts[1].replace("\"", ""));
-
-            } else {
-
-                // If word does not contain '='
-                // it belongs to previous key value
-
-                // Append remaining words
-                map.put(currentKey, map.get(currentKey) + " " + str.replace("\"", ""));
+                // Split this word into exactly 2 pieces: before '=' and after '='
+                String[] pair = part.split("=", 2);
+                currentKey = pair[0];   // [0] gets the left side key (e.g., "message")
+                currentValue = pair[1]; // [1] gets the right side value (e.g., "User")
+            }
+            // If the word does NOT have an '=', it is a continuation word
+            else {
+                // Add a space and glue this word to the current value
+                // (e.g., glues "login" and "successful" back to "User")
+                currentValue = currentValue + " " + part;
             }
         }
 
-        // Print final map
+        // Step 4: Save the final item because the loop ends
+        // before the last pair can hit the save line inside the loop
+        if (!currentKey.isEmpty()) {
+            map.put(currentKey, currentValue);
+        }
+
+        // Print the nicely structured map to the screen
         System.out.println(map);
     }
 }
