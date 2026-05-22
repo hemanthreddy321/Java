@@ -4,35 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10be4ece-b6c2-4927-b42f-fb4dba9d8941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/ClassObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/HierarchicalInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/InterfaceAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/MethodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/MultilevelInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/MultipleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/SingleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/ThisSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/AnagramStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Armstrong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ArrayAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ArrayShuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/JavaCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/MinMaxArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/RemoveDuplicateWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/RemoveDuplicatesArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SecondLargestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SortAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SumOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="10be4ece-b6c2-4927-b42f-fb4dba9d8941" name="Changes" comment="Modified">
+      <change afterPath="$PROJECT_DIR$/src/strings/AlternateWordOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/CharacterCountProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/EvenIndexWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/FirstRepeatedAndNonRepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ReverseEachWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/CountVowelsOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/CountVowelsOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/StringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/StringCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/ReverseSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,33 +73,48 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Abstraction.executor": "Run",
+    "Application.AlternateWordOperation.executor": "Run",
     "Application.AnagramStrings.executor": "Run",
     "Application.Armstrong.executor": "Run",
     "Application.ArrayAverage.executor": "Run",
+    "Application.CarS.executor": "Run",
+    "Application.CharacterCountProgram.executor": "Run",
     "Application.ClassObject.executor": "Run",
     "Application.ConvertNumricToChar.executor": "Run",
     "Application.CountOccurencesOfCharacter.executor": "Run",
     "Application.DupliacteArray.executor": "Run",
     "Application.DuplicateElementsArray.executor": "Run",
     "Application.Encapsulation.executor": "Run",
+    "Application.EvenIndexWords.executor": "Run",
     "Application.FibonacciSeries.executor": "Debug",
     "Application.FindDuplicateStringCharacter.executor": "Run",
     "Application.FirstNonRepeatingCharacterinString.executor": "Run",
+    "Application.FirstRepeatedAndNonRepeatedChar.executor": "Run",
     "Application.HashMap.executor": "Run",
     "Application.HierarchicalInheritance.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.InterfaceAbstraction.executor": "Run",
+    "Application.LogParser.executor": "Debug",
+    "Application.LongestSmallestWord.executor": "Run",
+    "Application.LongestWord.executor": "Run",
+    "Application.LongestWordFinder.executor": "Run",
+    "Application.MapExample.executor": "Run",
     "Application.MethodOverloading.executor": "Run",
     "Application.MethodOverriding.executor": "Run",
     "Application.MinMaxArrays.executor": "Run",
     "Application.MultilevelInheritance.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
     "Application.OOPS.MethodOverriding.executor": "Run",
+    "Application.Practice.executor": "Debug",
     "Application.Program1.executor": "Run",
     "Application.Program3.executor": "Run",
     "Application.RemoveDuplicateWords.executor": "Run",
     "Application.RemoveDuplicatesArray.executor": "Run",
+    "Application.ReverseEachWord.executor": "Run",
+    "Application.ReverseInOriginalOrder.executor": "Run",
     "Application.ReverseSentence.executor": "Run",
+    "Application.ReverseUniqueWords.executor": "Run",
+    "Application.ReverseWords.executor": "Run",
     "Application.Sample.executor": "Run",
     "Application.SecondLargestArray.executor": "Run",
     "Application.ShiftZeros.executor": "Run",
@@ -131,6 +125,7 @@
     "Application.SwapStringStringBuilder.executor": "Run",
     "Application.SwapStrings.executor": "Debug",
     "Application.ThisSuper.executor": "Run",
+    "Application.UniqueAndDuplicates.executor": "Run",
     "Application.practice.Program1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -170,13 +165,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaCollections">
-    <configuration name="ArrayShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.ArrayShuffle" />
+  <component name="RunManager" selected="Application.LongestSmallestWord">
+    <configuration name="AlternateWordOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.AlternateWordOperation" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.HashMap" />
+    <configuration name="EvenIndexWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.EvenIndexWords" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.JavaCollections" />
+    <configuration name="FirstRepeatedAndNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FirstRepeatedAndNonRepeatedChar" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.SingleInheritance" />
+    <configuration name="LongestSmallestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.LongestSmallestWord" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.ThisSuper" />
+    <configuration name="LongestWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.LongestWordFinder" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,19 +233,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaCollections" />
-        <item itemvalue="Application.ArrayShuffle" />
-        <item itemvalue="Application.HashMap" />
-        <item itemvalue="Application.ThisSuper" />
-        <item itemvalue="Application.SingleInheritance" />
+        <item itemvalue="Application.LongestSmallestWord" />
+        <item itemvalue="Application.LongestWordFinder" />
+        <item itemvalue="Application.EvenIndexWords" />
+        <item itemvalue="Application.FirstRepeatedAndNonRepeatedChar" />
+        <item itemvalue="Application.AlternateWordOperation" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -284,6 +279,23 @@
       <workItem from="1774439537442" duration="178000" />
       <workItem from="1774440016694" duration="59000" />
     </task>
+    <task id="LOCAL-00001" summary="Modified">
+      <option name="closed" value="true" />
+      <created>1779343417282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779343417282</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modified">
+      <option name="closed" value="true" />
+      <created>1779356387674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779356387674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +311,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

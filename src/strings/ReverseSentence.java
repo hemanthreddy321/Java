@@ -22,17 +22,9 @@ public class ReverseSentence {
 
         // Loop backwards through the words array
         for (int i = words.length - 1; i >= 0; i--) {
-            result += words[i];
-
-            // Add a space between words, but not after the last one
-            if (i > 0) {
-                result += " ";
-            }
+            result += words[i]+ " ";
         }
-
         System.out.println(result); // Output: "fun is Java"*/
-
     }
 }
-
 
