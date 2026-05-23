@@ -93,5 +93,10 @@ String logLine = "[2026-05-21 14:30:11] [ERROR] NullPointerException at Login li
 // Split by space or custom delimiters
 String[] logParts = logLine.split(" ");
 String timestamp = logParts[0] + " " + logParts[1]; // [2026-05-21 14:30:11]
-String logLevel = logParts[2]; // [ERROR]*/
+String logLevel = logParts[2]; // [ERROR]
+
+String result = timestamp + logLevel;
+System.out.println(result);
+
+*/
 

@@ -2,19 +2,26 @@ package arrays;
 
 public class MissingNumberArray {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 4, 5, 6}; // 3 is missing
-        int n = 6; // The range is 1 to 6
+        // Input array
+        int num[] = {1, 2, 4, 5};
 
-// 1. Expected sum (1+2+3+4+5+6)
-        int expectedSum = n * (n + 1) / 2;
+        // Total numbers expected
+        int n = 5;
 
-// 2. Actual sum (1+2+4+5+6)
+        // Sum of numbers from 1 to n
+        int expectedSum = (n * (n + 1)) / 2;
+
+        // Store actual sum of array elements
         int actualSum = 0;
-        for (int num : nums) {
-            actualSum += num;
+
+        // Calculate actual sum
+        for (int i = 0; i < num.length; i++) {
+            actualSum += num[i];
         }
 
-// 3. The difference is your missing number
-        System.out.println("Missing number: " + (expectedSum - actualSum));
+        // Missing number
+        int missing = expectedSum - actualSum;
+
+        System.out.println("Missing Number: " + missing);
     }
 }
