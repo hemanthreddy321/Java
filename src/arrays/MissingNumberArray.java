@@ -15,8 +15,8 @@ public class MissingNumberArray {
         int actualSum = 0;
 
         // Calculate actual sum
-        for (int i = 0; i < num.length; i++) {
-            actualSum += num[i];
+        for (int i : num) {
+            actualSum += i;
         }
 
         // Missing number
