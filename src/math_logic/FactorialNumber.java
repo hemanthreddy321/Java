@@ -8,5 +8,6 @@ public class FactorialNumber {
             fact *= i;
         }
         System.out.println("Factorial: " + fact);
+        //5= 5x4x3x2x1
     }
 }
