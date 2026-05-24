@@ -6,15 +6,22 @@ public class LongestSmallestWord {
 
         String[] words = str.split(" ");
 
+        // Initialize both with the first word
         String longest = words[0];
+        String smallest = words[0];
 
         for(String word : words) {
-//      replace with < for smallest
+            // Check for the longest word
             if(word.length() > longest.length()) {
                 longest = word;
             }
+            // Check for the smallest word
+            if(word.length() < smallest.length()) {
+                smallest = word;
+            }
         }
 
-        System.out.println(longest);
+        System.out.println("Longest word: " + longest);
+        System.out.println("Smallest word: " + smallest);
     }
 }

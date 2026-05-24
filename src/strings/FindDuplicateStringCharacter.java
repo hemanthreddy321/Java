@@ -22,6 +22,7 @@ public class FindDuplicateStringCharacter {
             }
             if (!isNotDupliacte) {
                 System.out.println("No duplicates are found");
+                break;
             }
         }
     }

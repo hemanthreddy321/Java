@@ -23,7 +23,7 @@ public class RemoveDuplicateChar {
     }
 }
 
-/*class ReadFileStream {
+/*class RemoveDupChar {
     public static void main(String[] args) {
         String s = "Selenium";
         Set<String> set = new LinkedHashSet<>(Arrays.asList(s.split("")));
