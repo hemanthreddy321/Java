@@ -16,6 +16,7 @@ public class ConvertNumricToChar {
                 // It prints the PREVIOUS character (i-1) 'a' times total.
                 for (int j = 1; j < a; j++) {
                     System.out.print(str.charAt(i - 1));
+                    // change to i+1 for i/p - 2a3b4c
                 }
             }
         }
