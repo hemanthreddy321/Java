@@ -47,6 +47,8 @@ public class FirstNonRepeatingCharacterinString {
         System.out.println("No non-repeating character found.");
     }
 }
+/*Replace it with this line: to get first repeated character
+if(entry.getValue() > 1)*/
 
 /*String str = "automation";
 
