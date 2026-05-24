@@ -1,59 +1,29 @@
 package strings;
 
-import java.util.Scanner;
-
 public class AlternateWordOperation {
-
     public static void main(String[] args) {
+        // Hardcoded input string to replace Scanner
+        String text = "hello world welcome to java";
+        String[] words = text.split(" ");
+        String result = "";
 
-        Scanner sc = new Scanner(System.in);
-
-        // Read input
-        System.out.println("Please enter the input string:");
-        String input = sc.nextLine();
-
-        System.out.println("Input: " + input);
-
-        // Split input into words
-        String[] words = input.split(" ");
-
-        String outputString = "";
-
-        // Process each word
+        // Process each word based on its position
         for (int i = 0; i < words.length; i++) {
-
-            String word = words[i];
-
-            // Even index -> convert to uppercase
             if (i % 2 == 0) {
-                outputString += word.toUpperCase();
+                // Even index: convert word to uppercase
+                result += words[i].toUpperCase();
+            } else {
+                // Odd index: reverse the word using StringBuilder
+                result += new StringBuilder(words[i]).reverse().toString();
             }
 
-            // Odd index -> reverse word
-            else {
-                outputString += getReverseString(word);
-            }
-
-            // Add space except after last word
+            // Add a space between words, but not after the last one
             if (i != words.length - 1) {
-                outputString += " ";
+                result += " ";
             }
         }
 
-        System.out.println("Output: " + outputString);
-
-        sc.close();
-    }
-
-    // Method to reverse a string
-    public static String getReverseString(String word) {
-
-        String reverse = "";
-
-        for (int i = word.length() - 1; i >= 0; i--) {
-            reverse += word.charAt(i);
-        }
-
-        return reverse;
+        // Print final output
+        System.out.println("Output: " + result);
     }
 }
