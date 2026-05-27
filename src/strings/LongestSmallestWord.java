@@ -1,27 +1,48 @@
 package strings;
 
 public class LongestSmallestWord {
+
     public static void main(String[] args) {
+
         String str = "I love selenium automation";
 
         String[] words = str.split(" ");
 
-        // Initialize both with the first word
+        // Initialize
         String longest = words[0];
-        String smallest = words[0];
+        String secondLongest = "";
 
-        for(String word : words) {
-            // Check for the longest word
-            if(word.length() > longest.length()) {
+        String smallest = words[0];
+        String secondSmallest = "";
+
+        for (String word : words) {
+
+            // Longest and Second Longest
+            if (word.length() > longest.length()) {
+
+                secondLongest = longest;
                 longest = word;
+            } else if (word.length() > secondLongest.length() && !word.equals(longest)) {
+
+                secondLongest = word;
             }
-            // Check for the smallest word
-            if(word.length() < smallest.length()) {
+
+            // Smallest and Second Smallest
+            if (word.length() < smallest.length()) {
+
+                secondSmallest = smallest;
                 smallest = word;
+            } else if ((secondSmallest.equals(" ") || word.length() < secondSmallest.length()) && !word.equals(smallest)) {
+
+                secondSmallest = word;
             }
         }
 
-        System.out.println("Longest word: " + longest);
-        System.out.println("Smallest word: " + smallest);
+        // Output
+        System.out.println("Longest Word: " + longest);
+        System.out.println("Second Longest Word: " + secondLongest);
+
+        System.out.println("Smallest Word: " + smallest);
+        System.out.println("Second Smallest Word: " + secondSmallest);
     }
 }
