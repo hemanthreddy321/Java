@@ -4,7 +4,7 @@ public class Strings {
     public static void main(String[] args) {
         // String s = "Hello"; - String Literal
         // string class creates new object everytime in memory (String a = new String("hello");
-        String original = "Hemanth";
+        String original = "HemanthReddy";
         String reversed = new StringBuilder(original).reverse().toString();
         System.out.println("Original: " + original);
         System.out.println("Reversed: " + reversed);
