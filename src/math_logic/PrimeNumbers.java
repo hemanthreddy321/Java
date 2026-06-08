@@ -20,4 +20,5 @@ public class PrimeNumbers {
 Explanation:
 We start with the number 29. Since 29 is greater than 1, the loop checks
 if it can be divided evenly by any number from 2 up to the square root of 29 (about 5.38).
-The numbers 2, 3, 4, and 5 do not divide 29 without a remainder, so the program concludes that 29 is prime.*/
+The numbers 2, 3, 4, and 5 do not divide 29 without a remainder, so the program concludes that 29 is prime.
+*/

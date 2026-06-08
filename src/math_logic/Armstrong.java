@@ -1,5 +1,13 @@
 package math_logic;
 
+/*
+An Armstrong number is equal to the sum of its digits raised to the power of the number of digits.
+For 153 (3 digits):
+        - First digit: 1³ = 1
+        - Second digit: 5³ = 125
+        - Third digit: 3³ = 27
+Now add them: 1 + 125 + 27 = 153.
+*/
 public class Armstrong {
     public static void main(String[] args) {
         int num = 153; // The number to check
