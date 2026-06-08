@@ -2,26 +2,24 @@ package arrays;
 
 import java.util.HashSet;
 
-public class UniquerrayElements {
+public class UniqueArrayElements {
     public static void main(String[] args) {
 
-        int[] arr = {1, 3, 4, 5, 8};
-        int[] arr1 = {2, 4, 6, 8};
+        int[] a = {1, 3, 4, 5, 8};
+        int[] b = {2, 4, 6, 8};
 
         System.out.println("--- Common elements using traditional loops ---");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr1.length; j++) {
-                // Compares index by index
-                if (arr[i] == arr1[j]) {
-                    System.out.println(arr[i]);
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < b.length; j++) {
+                if (a[i] == b[j]) {
+                    System.out.println(a[i]);
                 }
             }
         }
 
         System.out.println("\n--- Common elements using for-each loops ---");
-        for (int i : arr) {
-            for (int j : arr1) {
-                // Compares values directly without index variables
+        for (int i : a) {
+            for (int j : b) {
                 if (i == j) {
                     System.out.println(i);
                 }
@@ -29,18 +27,17 @@ public class UniquerrayElements {
         }
 
         System.out.println("\n--- Common elements using HashSet ---");
-        int[] a = {1, 2, 3, 4};
-        int[] b = {3, 4, 5, 6};
+        int[] x = {1, 2, 3, 4};
+        int[] y = {3, 4, 5, 6};
 
         HashSet<Integer> set = new HashSet<>();
-        // Add all elements from the first array to the set
-        for (int num : a) {
+        for (int num : x) {
             set.add(num);
         }
 
-        // Check if elements from the second array exist in the set
-        for (int num : b) {
-            if (set.contains(num)) {
+        for (int num : y) {
+            // set.remove - returns true only the FIRST time it finds and deletes the match
+            if (set.remove(num)) {
                 System.out.println("Common element: " + num);
             }
         }
@@ -51,12 +48,10 @@ public class UniquerrayElements {
         for (int i = 0; i < str.length; i++) {
             int count = 0;
             for (int j = 0; j < str.length; j++) {
-                // Fixed: Changed '==' to '.equals()' for accurate String comparison
                 if (str[i].equals(str[j])) {
                     count++;
                 }
             }
-            // If the element was only found exactly 1 time, it is unique
             if (count == 1) {
                 System.out.println(str[i]);
             }

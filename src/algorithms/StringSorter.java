@@ -11,6 +11,7 @@ public class StringSorter {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 // compareTo returns > 0 if arr[i] is lexicographically greater than arr[j]
+                //Replace < for Descending Order
                 if (arr[i].compareTo(arr[j]) > 0) {
                     // Swapping the strings
                     String temp = arr[i];
