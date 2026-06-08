@@ -1,58 +1,34 @@
 package arrays;
-import java.util.*;
+
+import java.util.Collections;
+import java.util.TreeSet;
 
 public class NthLargestArray {
     public static void main(String[] args) {
         int[] nums = {12, 5, 9, 21, 21, 7};
-        int k = 2; // Change to 3 for 3rd largest, 4 for 4th largest, etc.
+        int k = 2; // Target rank (e.g., 2 = 2nd largest)
 
-        // TreeSet automatically removes duplicates and stores numbers in descending order
+        // Step 1: Filter out duplicates and sort numbers in descending order automatically
         TreeSet<Integer> set = new TreeSet<>(Collections.reverseOrder());
         for (int n : nums) {
             set.add(n);
         }
 
-        // Convert to array to access the Nth largest element via index
+        // Step 2: Validate if we have enough distinct elements to find the K-th largest
         if (set.size() >= k) {
-            System.out.println(k + "nd largest: " + set.toArray()[k - 1]);
+            int currentRank = 1; // Track our rank as we loop (1st largest, 2nd largest, etc.)
+
+            // Step 3: Loop through the sorted elements directly without converting to an array
+            for (int element : set) {
+                // If our current position matches the rank we want, print and stop
+                if (currentRank == k) {
+                    System.out.println(k + "nd largest distinct value is: " + element);
+                    break;
+                }
+                currentRank++; // Move to the next rank position
+            }
         } else {
-            System.out.println("No distinct " + k + "nd largest value.");
+            System.out.println("No distinct " + k + "nd largest value available.");
         }
     }
 }
-
-
-
-/*public class NthLargest {
-    public static void main(String[] args) {
-        int[] nums = {12, 5, 9, 21, 21, 7};
-        int k = 2; // Change to 3 for 3rd largest, 4 for 4th largest, etc.
-
-        // Integer objects start as null to easily handle negative numbers
-        Integer currentMax = null;
-
-        // Run the loop K times to peel off the top K layers
-        for (int i = 0; i < k; i++) {
-            Integer nextMax = null;
-
-            // Find the highest number that is smaller than our last maximum
-            for (int n : nums) {
-                if (currentMax == null || n < currentMax) {
-                    if (nextMax == null || n > nextMax) {
-                        nextMax = n;
-                    }
-                }
-            }
-
-            // Move to the next layer
-            currentMax = nextMax;
-        }
-
-        // Output the result
-        if (currentMax != null) {
-            System.out.println(k + " largest: " + currentMax);
-        } else {
-            System.out.println("No distinct " + k + " value.");
-        }
-    }
-}*/

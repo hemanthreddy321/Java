@@ -14,7 +14,7 @@ public class RemoveDuplicatesArray {
 
 
 
-/*public class ReadFileStream {
+/*public class RemoveDuplicatesArray {
     public static void main(String[] args) {
         String[] words = {"apple", "banana", "apple", "cherry", "banana"};
         Set<String> unique = new HashSet<>(Arrays.asList(words));
