@@ -32,7 +32,7 @@ public class LongestSmallestWord {
 
                 secondSmallest = smallest;
                 smallest = word;
-            } else if ((secondSmallest.equals(" ") || word.length() < secondSmallest.length()) && !word.equals(smallest)) {
+            } else if ((word.length() < secondSmallest.length()) && !word.equals(smallest)) {
 
                 secondSmallest = word;
             }

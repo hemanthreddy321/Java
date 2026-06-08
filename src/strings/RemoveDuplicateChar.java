@@ -23,7 +23,8 @@ public class RemoveDuplicateChar {
     }
 }
 
-/*class RemoveDupChar {
+/*
+class RemoveDupChar {
     public static void main(String[] args) {
         String s = "Selenium";
         Set<String> set = new LinkedHashSet<>(Arrays.asList(s.split("")));
@@ -31,18 +32,22 @@ public class RemoveDuplicateChar {
         System.out.println(set);
 //        o/p = [S, e, l, n, i, u, m]
     }
-}*/
+}
+*/
 
-/*String str = "programming";
-String result = "";
+/*
 
-for(int i = 0; i < str.length(); i++) {
+    String str = "programming";
+    String result = "";
 
-char ch = str.charAt(i);
+    for(int i = 0; i < str.length(); i++) {
+
+    char ch = str.charAt(i);
 
     if(result.indexOf(ch) == -1) {
-result = result + ch;
+        result = result + ch;
     }
-            }
+  }
+    System.out.println(result);
 
-            System.out.println(result);*/
+*/

@@ -15,7 +15,7 @@ public class FirstNonRepeatingCharacterinString {
             }
         }
 
-        if (flag) System.out.println("There is no non repeating character in input string");
+        if (flag) System.out.println("There is no non-repeating character in input string");
     }
 }
 */
@@ -50,21 +50,25 @@ public class FirstNonRepeatingCharacterinString {
 /*Replace it with this line: to get first repeated character
 if(entry.getValue() > 1)*/
 
-/*String str = "automation";
+/*
 
-for(int i = 0; i < str.length(); i++) {
+    String str = "automation";
 
-int count = 0;
+    for(int i = 0; i < str.length(); i++) {
+
+    int count = 0;
 
     for(int j = 0; j < str.length(); j++) {
 
         if(str.charAt(i) == str.charAt(j)) {
-count++;
+            count++;
         }
         }
 
         if(count == 1) {
-        System.out.println(str.charAt(i));
-        break;
+            System.out.println(str.charAt(i));
+            break;
         }
-        }*/
+        }
+
+*/

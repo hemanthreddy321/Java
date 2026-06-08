@@ -16,26 +16,29 @@ public class StringCount {
 
 //       if (a.charAt(i) == 'a')
 
-/*String str = "Automation";
-
-System.out.println(str.length());*/
+/*
+String str = "Automation";
+System.out.println(str.length());
+*/
 
 
 /*
 String words = "One Two Three Four";
 int countWords = words.split("\\s").length;
-System.out.println(countWords);*/
+System.out.println(countWords);
+*/
 
 
 /*
 Count Digits in a String
-String text = "W3Schools was founded in 1998";
-int count = 0;
+        String text = "W3Schools was founded in 1998";
+        int count = 0;
 
-for (char c : text.toCharArray()) {
+        for (char c : text.toCharArray()) {
         if (Character.isDigit(c)) {
-count++;
+            count++;
         }
         }
 
-        System.out.println("Digits: " + count);*/
+        System.out.println("Digits: " + count);
+*/

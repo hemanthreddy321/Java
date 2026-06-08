@@ -1,33 +1,50 @@
 package strings;
 
+import java.util.*;
+
 public class ReverseEachWord {
     public static void main(String[] args) {
-        String str = "Java is fun";
-        String[] words = str.split(" ");
+        String s = "java is fun";
+        String[] words = s.split(" ");
+        String result = "";
+
         for (String word : words) {
-            String rev = "";
+            String reversedWord = "";
 
             for (int i = word.length() - 1; i >= 0; i--) {
-                rev = rev + word.charAt(i);
+                reversedWord += word.charAt(i);
             }
-            System.out.print(rev + " ");
+            result += reversedWord + " ";
         }
+        // Add this line to print the final reversed string
+        // .trim() removes the extra space added at the very end of the loop
+        System.out.println(result.trim());
     }
 }
 
-/*public class ReverseEachWord {
+/*
+
+public class ReverseEachWord {
     public static void main(String[] args) {
-        String input = "Java is fun";
-        // 1. Split string into words by spaces
+        String input = "Java Selenium TestNG";
+
+        // Split the sentence into individual words using spaces
         String[] words = input.split(" ");
-        StringBuilder result = new StringBuilder();
+        String result = "";
+
+        // Loop through each word in the array
         for (String word : words) {
-            // 2. Reverse each word and append it
-            StringBuilder reversedWord = new StringBuilder(word);
-            result.append(reversedWord.reverse().toString()).append(" ");
+            // Use StringBuilder's built-in reverse method for simplicity
+            StringBuilder sb = new StringBuilder(word);
+
+            // Append the reversed word and a space to the result string
+            result += sb.reverse().append(" ").toString();
         }
-        // 3. Trim to remove the final extra space
-        result.toString().trim();
-        System.out.println((result)); // Output: avaJ si nuf
+
+        // Trim removes the trailing space added in the loop
+        System.out.println("Original: " + input);
+        System.out.println("Reversed: " + result.trim());
     }
-}*/
+}
+
+*/

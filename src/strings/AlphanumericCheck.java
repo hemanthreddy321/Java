@@ -23,3 +23,8 @@ public class AlphanumericCheck {
         }
     }
 }
+
+/*
+    1-Line Regular Expression (Regex) Way
+    boolean isValid = input.matches("^[a-zA-Z0-9]+$");
+*/
