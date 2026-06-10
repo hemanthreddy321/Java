@@ -8,12 +8,14 @@ public class Practice {
     }
 }
 /*
+
 String[] words = text.split(":");
 String order = words[1].trim();
 String[] id = order.split(" ");
 String idNo = id[0];
 
-
 System.out.println(Arrays.toString(words));
-        System.out.println(order);
-System.out.println(idNo);*/
+System.out.println(order);
+System.out.println(idNo);
+
+*/
