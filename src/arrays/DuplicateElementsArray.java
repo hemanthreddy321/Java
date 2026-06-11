@@ -6,7 +6,7 @@ public class DuplicateElementsArray {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                // USE '==' to '.equals()' for reliable String comparison
+                // USE '.equals()' for reliable String comparison
                 if (arr[i].equals(arr[j])) {
                     System.out.println("Duplicate: " + arr[i]);
                 }

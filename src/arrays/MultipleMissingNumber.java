@@ -5,7 +5,7 @@ public class MultipleMissingNumber {
     public static void main(String[] args) {
 
         // Input array
-        int arr[] = {1, 2, 4, 6, 7, 9};
+        int[] arr = {1, 2, 4, 6, 7, 9};
 
         // Maximum number in range
         int n = 9;

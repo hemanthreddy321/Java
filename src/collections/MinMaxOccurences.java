@@ -21,8 +21,8 @@ public class MinMaxOccurences {
 
         // Step 3: Find both min and max in a single loop
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            int currentCount = entry.getValue();
             char currentChar = entry.getKey();
+            int currentCount = entry.getValue();
 
             // Check for minimum
             if (currentCount < minCount) {

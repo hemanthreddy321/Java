@@ -9,7 +9,7 @@ public class PatternPrint {
         for (int i = 1; i <= rows; i++) {
             // Inner loop for numbers in each row
             for (int j = 1; j <= i; j++) {
-                System.out.print(num + " ");
+                System.out.print(num + " "); // Use "*" instead of num to print stars
                 num++; // Increment number after printing
             }
             // Move to the next line

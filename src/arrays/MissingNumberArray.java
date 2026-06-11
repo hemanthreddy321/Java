@@ -3,7 +3,7 @@ package arrays;
 public class MissingNumberArray {
     public static void main(String[] args) {
         // Input array
-        int num[] = {1, 2, 4, 5};
+        int[] num = {1, 2, 4, 5};
 
         // Total numbers expected
         int n = 5;

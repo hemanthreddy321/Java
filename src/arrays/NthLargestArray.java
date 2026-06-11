@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class NthLargestArray {
     public static void main(String[] args) {
-        int[] nums = {12, 5, 9, 21, 21, 7};
+        Integer[] nums = {12, 5, 9, 21, 21, 7};
         int k = 2; // Target rank (e.g., 2 = 2nd largest)
 
         // Step 1: Filter out duplicates and sort numbers in descending order automatically

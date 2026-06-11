@@ -3,9 +3,9 @@ package arrays;
 public class ArrayAverage {
     public static void main(String[] args) {
         // An array storing different ages
-        int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
+        int[] ages = {20, 22, 18, 35, 48, 26, 87, 70};
 
-        float avg, sum = 0;
+        double avg, sum = 0;
 
         // Get the length of the array
         int length = ages.length;
