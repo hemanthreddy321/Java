@@ -60,6 +60,31 @@ public class Loops {
             count++;
         }
 
+        System.out.println("\n--- 5. The FOR-EACH Loop ---");
+        /*
+         * HOW IT WORKS: Best for iterating through all elements in an array or collection
+         * without needing to manage an index counter. Simplifies code and reduces errors.
+         * Structure: for(DataType variable : array/collection)
+         * Example: Printing all numbers in an array.
+         */
+        int[] numbers = {10, 20, 30, 40, 50};
+        System.out.println("Iterating through the numbers array:");
+        for (int number : numbers) {
+            System.out.println("Number: " + number);
+        }
+
+        System.out.println("\nIterating through a String array:");
+        String[] fruits = {"Apple", "Banana", "Cherry", "Date"};
+        for (String fruit : fruits) {
+            System.out.println("Fruit: " + fruit);
+        }
+
+        System.out.println("\nIterating through an array of characters:");
+        char[] letters = {'A', 'B', 'C', 'D', 'E'};
+        for (char letter : letters) {
+            System.out.println("Letter: " + letter);
+        }
+
         System.out.println("Program finished.");
     }
 }
