@@ -18,3 +18,8 @@ public class CountDuplicateStringCharacter {
         }
     }
 }
+
+// To find only unique
+// Programming
+// entry.getValue()==1
+// LINKED HASHMAP
