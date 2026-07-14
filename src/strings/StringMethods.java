@@ -20,3 +20,18 @@ public class StringMethods {
         System.out.println(a.replace("t", "s"));
     }
 }
+/* Convert 3rd letter to Uppecase
+public class Main {
+    public static void main(String[] args) {
+        String name = "hemanth";
+
+        // Extract parts of the string and modify the 3rd letter (index 2)
+        String result = name.substring(0, 2) +
+                Character.toUpperCase(name.charAt(2)) +
+                name.substring(3);
+
+        // Print the final text
+        System.out.println(result);
+    }
+}
+*/

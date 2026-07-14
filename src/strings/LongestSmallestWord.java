@@ -45,3 +45,33 @@ public class LongestSmallestWord {
         System.out.println("Second Smallest Word: " + secondSmallest);
     }
 }
+/*
+public class WordFinder {
+    public static void main(String[] args) {
+        String sentence = "Learning Java programming is fun and rewarding";
+
+        // Split the string into individual words by space
+        String[] words = sentence.split(" ");
+
+        // Initialize smallest and largest with the first word
+        String smallest = words[0];
+        String largest = words[0];
+
+        // Traverse through the array to compare lengths
+        for (String word : words) {
+            // Ignore empty strings caused by multiple spaces
+            if (word.length() == 0) continue;
+
+            if (word.length() < smallest.length()) {
+                smallest = word;
+            }
+            if (word.length() > largest.length()) {
+                largest = word;
+            }
+        }
+
+        System.out.println("Smallest word: " + smallest);
+        System.out.println("Longest word: " + largest);
+    }
+}
+*/
