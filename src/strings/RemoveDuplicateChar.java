@@ -6,15 +6,15 @@ public class RemoveDuplicateChar {
 
     public static String removeDuplicates(String str) {
         HashSet<Character> hs = new HashSet<>();
-        StringBuilder result = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
         for (char c : str.toCharArray()) {
             if (!hs.contains(c)) {
                 hs.add(c);
-                result.append(c);
+                sb.append(c);
             }
         }
-        return result.toString();
+        return sb.toString();
     }
 
     public static void main(String[] args) {
